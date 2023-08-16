@@ -1,9 +1,27 @@
 header {
   background:
-    linear-gradient(45deg, #65D72A11 45px, transparent 45px)64px 64px,
-    linear-gradient(45deg, #65D72A11 45px, transparent 45px,transparent 91px, #2f67ba 91px, #2f67ba 135px, transparent 135px),
-    linear-gradient(-45deg, #65D72A11 23px, transparent 23px, transparent 68px,#65D72A11 68px,#65D72A11 113px,transparent 113px,transparent 158px,#65D72A11 158px);
-  background-color:#2f67ba;
+    linear-gradient(45deg, #65d72a11 45px, transparent 45px) 64px 64px,
+    linear-gradient(
+      45deg,
+      #65d72a11 45px,
+      transparent 45px,
+      transparent 91px,
+      #2f67ba 91px,
+      #2f67ba 135px,
+      transparent 135px
+    ),
+    linear-gradient(
+      -45deg,
+      #65d72a11 23px,
+      transparent 23px,
+      transparent 68px,
+      #65d72a11 68px,
+      #65d72a11 113px,
+      transparent 113px,
+      transparent 158px,
+      #65d72a11 158px
+    );
+  background-color: #2f67ba;
   background-size: 128px 128px;
   padding: 1rem;
   text-align: center;
@@ -21,16 +39,16 @@ header h1 {
 
 header .version {
   font-weight: bold;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   color: #fff;
-  background: #65D72A55;
-  padding: .2rem .4rem;
-  border-radius: .2rem;
+  background: #65d72a55;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.2rem;
   transition: background 100ms ease-in-out;
 }
 
 header .version:hover {
-  background: #65D72A88;
+  background: #65d72a88;
 }
 
 header nav ul {
@@ -44,11 +62,11 @@ header nav .first a {
   font-weight: bold;
   background: lightblue;
   color: #000;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
 }
 
 header nav ul li a {
-  padding: .5rem;
+  padding: 0.5rem;
   color: #fff;
 }
 
@@ -59,6 +77,5 @@ header nav ul li a:hover {
 @keyframes headerBackground {
   to {
     background-size: 256px 256px;
-
   }
 }
