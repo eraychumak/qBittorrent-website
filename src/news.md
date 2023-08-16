@@ -1,7 +1,3 @@
----
-layout: old_news.liquid
-permalink: "{{ page.filePathStem }}.html"
----
 ### Sunday Jun 18th 2023 - qBittorrent v4.5.4 and v4.6.0beta1 release
 
 qBittorrent v4.5.4 and v4.6.0beta1 were released.<br>

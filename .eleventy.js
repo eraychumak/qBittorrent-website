@@ -1,10 +1,22 @@
 module.exports = function(eleventyConfig) {
-  // Copy files as-is
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy(".htaccess");
-  eleventyConfig.addPassthroughCopy("favicon.ico");
-  
-  // Ignore files
-  eleventyConfig.ignores.add("README.md");
+  eleventyConfig.addPlugin(require("eleventy-plugin-heroicons"), {
+    className: "heroIcon"
+  });
+
+  eleventyConfig.addPassthroughCopy("src/css")
+  eleventyConfig.addPassthroughCopy("src/img")
+  eleventyConfig.addPassthroughCopy("src/.htaccess")
+  eleventyConfig.addPassthroughCopy("src/favicon.ico")
+
+
+  return {
+    templateFormats: [
+      "html",
+      "liquid",
+      "md"
+    ],
+    dir: {
+			input: "src"
+		},
+  }
 };
