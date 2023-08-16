@@ -9,7 +9,7 @@
     "build": "eleventy",
     "check-html": "html-validate _site/*.html",
     "format": "prettier --write **.css",
-    "lint": "stylelint **/*.css",
+    "lint": "stylelint **/*.css --fix",
     "serve": "eleventy --serve"
   },
   "devDependencies": {
