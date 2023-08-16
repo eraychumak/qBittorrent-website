@@ -2,6 +2,8 @@
 
 [![GitHub Actions CI Status](https://github.com/eraychumak/qBittorrent-website/workflows/CI/badge.svg)](https://github.com/eraychumak/qBittorrent-website/actions)
 
+![Preview of the new redesigned website, desktop + mobile](./preview.png)
+
 **On a mission to fully re-design the qBittorrent website.** I've seen a lot of people wanting a fresh update to the UI and waiting for PRs to get approved etc takes too long so I am just going to take my own spin at it and see where it takes me.
 
 Live preview of the `dev` branch here: https://eraychumak.github.io/qBittorrent-website/
