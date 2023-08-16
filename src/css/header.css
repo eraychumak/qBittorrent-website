@@ -1,15 +1,15 @@
 header {
   animation: header-background 12s linear forwards;
   background:
-  linear-gradient(45deg, #65d72a11 45px, transparent 45px) 64px 64px,
-  linear-gradient(
-    45deg,
-    #65d72a11 45px,
-    transparent 45px,
-    transparent 91px,
-    #2f67ba 91px,
-    #2f67ba 135px,
-    transparent 135px
+    linear-gradient(45deg, #65d72a11 45px, transparent 45px) 64px 64px,
+    linear-gradient(
+      45deg,
+      #65d72a11 45px,
+      transparent 45px,
+      transparent 91px,
+      #2f67ba 91px,
+      #2f67ba 135px,
+      transparent 135px
     ),
     linear-gradient(
       -45deg,
@@ -21,7 +21,7 @@ header {
       transparent 113px,
       transparent 158px,
       #65d72a11 158px
-      );
+    );
   background-color: #2f67ba;
   background-size: 128px 128px;
   padding: 1rem;
