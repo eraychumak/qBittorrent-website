@@ -37,20 +37,6 @@ header h1 {
   color: #fff;
 }
 
-header .version {
-  background: #65d72a55;
-  border-radius: 0.2rem;
-  color: #fff;
-  font-weight: bold;
-  margin: 0.5rem 0;
-  padding: 0.2rem 0.4rem;
-  transition: background 100ms ease-in-out;
-}
-
-header .version:hover {
-  background: #65d72a88;
-}
-
 header nav ul {
   display: flex;
   flex-wrap: wrap;
