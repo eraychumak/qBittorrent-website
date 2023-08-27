@@ -45,16 +45,19 @@ section p {
 
 section .btnVisitDownloads {
   align-items: center;
-  background: #2f67ba;
+  background: #69d471;
   border-radius: 0.2rem;
-  color: #fff;
+  color: #000;
   display: inline-flex;
   font-weight: bold;
-  padding: 0.5rem;
+  gap: .2rem;
+  justify-content: center;
+  padding: 1rem 0.5rem;
+  width: 100%;
 }
 
 section .btnVisitDownloads:hover {
-  background: #3f78db;
+  background: #7ae582;
 }
 
 .featureList section {
