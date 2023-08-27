@@ -16,6 +16,12 @@ body {
   font-family: "Open Sans", Verdana, Geneva, Tahoma, Arial, sans-serif;
 }
 
+#clientPreview {
+  border: solid 0.1rem #2f67ba;
+  border-radius: 0.2rem;
+  width: 100%;
+}
+
 .heroIcon {
   width: 1rem;
 }
