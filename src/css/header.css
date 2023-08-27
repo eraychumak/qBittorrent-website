@@ -1,5 +1,4 @@
 header {
-  animation: header-background 12s linear forwards;
   background:
     linear-gradient(45deg, #65d72a11 45px, transparent 45px) 64px 64px,
     linear-gradient(
@@ -23,7 +22,7 @@ header {
       #65d72a11 158px
     );
   background-color: #2f67ba;
-  background-size: 128px 128px;
+  background-size: 256px 256px;
   padding: 1rem;
   text-align: center;
 }
@@ -58,10 +57,4 @@ header nav ul li a {
 
 header nav ul li a:hover {
   text-decoration: underline;
-}
-
-@keyframes header-background {
-  to {
-    background-size: 256px 256px;
-  }
 }
