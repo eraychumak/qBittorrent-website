@@ -1,7 +1,7 @@
 <section class="downloadPlatformSection" id="downloadsSourceSection">
   <header>
     <img
-      src="/img/tar-logo.svg"
+      src="img/tar-logo.svg"
       alt="tarball icon"
       height="32">
     <h3>Source Tarball</h3>
@@ -31,31 +31,29 @@
         <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation" target="_blank">here</a>.
       </p>
       <table class="downloadsTable">
+        <thead>
+          <tr>
+            <th>
+              <strong>Checksum</strong>
+            </th>
+            <th>
+              <strong>SHA2-256</strong>
+            </th>
+          </tr>
+        </thead>
         <tbody>
-          <thead>
-            <tr>
-              <th>
-                <strong>Checksum</strong>
-              </th>
-              <th>
-                <strong>SHA2-256</strong>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>TAR.GZ</td>
-              <td class="wordBreak">
-                <code>{{ src.hash_gz }}</code>
-              </td>
-            </tr>
-            <tr>
-              <td>TAR.XZ</td>
-              <td class="wordBreak">
-                <code>{{ src.hash_xz }}</code>
-              </td>
-            </tr>
-          </tbody>
+          <tr>
+            <td>TAR.GZ</td>
+            <td class="wordBreak">
+              <code>{{ src.hash_gz }}</code>
+            </td>
+          </tr>
+          <tr>
+            <td>TAR.XZ</td>
+            <td class="wordBreak">
+              <code>{{ src.hash_xz }}</code>
+            </td>
+          </tr>
         </tbody>
       </table>
       <table class="downloadsTable">
