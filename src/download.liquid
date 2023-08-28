@@ -1,6 +1,8 @@
 ---
 layout: base.liquid
 latestVersion: 4.5.4
+permalink: "{{ page.filePathStem }}.html"
+
 win:
   ver: "4.5.4"
   lt_ver: "1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c"
@@ -47,7 +49,6 @@ src:
   hash_gz: "8a505cff928cc6996b07aff932c269b7e4e6705eefbe460fc691bf599846d789"
   hash_xz: "f92bcd3ed25600796c59257c507e56a252a65af60bd042b71f1e7ff3fe5264da"
 ---
-
 <section>
   <h2>Downloads</h2>
   <section class="downloadsContents">
@@ -90,14 +91,14 @@ src:
           <code>4096R/5B7CC9A2</code>
         </p>
       </a>
-      <button>{% heroicon "outline" "clipboard-copy" %}</button>
+      <button type="button" aria-label="Copy to clipboard">{% heroicon "outline" "clipboard-copy" %}</button>
     </section>
     <h4>Fingerprint</h4>
     <section class="copyToClipboard">
       <p>
         <code>D8F3DA77AAC6741053599C136E4A2D025B7CC9A2</code>
       </p>
-      <button>{% heroicon "outline" "clipboard-copy" %}</button>
+      <button type="button" aria-label="Copy to clipboard">{% heroicon "outline" "clipboard-copy" %}</button>
     </section>
     <p>
       You can also download it from
@@ -105,7 +106,6 @@ src:
     </p>
   </section>
 </section>
-
 {%- include 'downloads/windows' -%}
 {%- include 'downloads/macos' -%}
 {%- include 'downloads/linux' -%}
