@@ -1,19 +1,19 @@
-<header>
-  <img src="img/logo.svg" alt="logo">
+<header class="mainHeader">
+  <img src="/img/logo.svg" alt="logo">
   <h1>qBittorrent</h1>
   <nav>
     <ul>
-      <li class="first">
-        <a href="./">Home</a>
+      <li {% if page.url == "/" %}class="first"{% endif %}>
+        <a href="/">Home</a>
       </li>
-      <li>
-        <a href="news">News</a>
+      <li {% if page.url == "/news/" %}class="first"{% endif %}>
+        <a href="/news">News</a>
       </li>
       <li>
         <a href="https://forum.qbittorrent.org" target="_blank">Forum</a>
       </li>
-      <li>
-        <a href="download">Download</a>
+      <li {% if page.url == "/download/" %}class="first"{% endif %}>
+        <a href="/download">Download</a>
       </li>
       <li>
         <a href="https://sourceforge.net/projects/qbittorrent/#screenshots">Screenshots</a>
