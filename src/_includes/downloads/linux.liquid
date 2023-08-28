@@ -1,0 +1,194 @@
+<section class="downloadPlatformSection linux" id="downloadsLinuxSection">
+  <header>
+    <img
+      src="/img/os/tux.svg"
+      alt="linux icon"
+      height="32">
+    <h3>Linux</h3>
+  </header>
+  <section class="importantNote">
+    <p>
+      <strong>NOTE:</strong>
+      The default downloads below is an AppImage created on Ubuntu 20.04. In general, it should work on any other similarly aged Linux distro.</p>
+    <p>If you're looking for native packages or Ubuntu PPAs, you can find them in the
+      <a href="#otherBinaryPackages">Other Binary Packages</a>
+      section below.
+    </p>
+  </section>
+  <a class="mainDownloadBtn" href="https://www.fosshub.com/qBittorrent.html">
+    <p>Download qBittorrent (v{{ appimage.ver }}) for Linux (AppImage)</p>
+  </a>
+  <details>
+    <summary class="downloadsOptions">See additional download options</summary>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>AppImage</th>
+          <th>Info</th>
+          <th>Mirrors</th>
+          <th>PGP Signature</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html">{{ appimage.ver }}</a>
+          </td>
+          <td>Uses Qt6 and libtorrent 1.2.x series.</td>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage.ver}}_x86_64.AppImage">FossHub</a>,
+            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage.ver}}/qbittorrent-{{appimage.ver}}_x86_64.AppImage/download">SourceForge</a>
+          </td>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage.ver}}_x86_64.AppImage.asc">FossHub</a>,
+            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage.ver}}/qbittorrent-{{appimage.ver}}_x86_64.AppImage.asc/download">SourceForge</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html">{{ appimage.ver }} (lt20)</a>
+          </td>
+          <td>Uses Qt6 and libtorrent 2.0.x series.</td>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage.ver}}_lt20_x86_64.AppImage">FossHub</a>,
+            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage.ver}}/qbittorrent-{{appimage.ver}}_lt20_x86_64.AppImage/download">SourceForge</a>
+          </td>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage.ver}}_lt20_x86_64.AppImage.asc">FossHub</a>,
+            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage.ver}}/qbittorrent-{{appimage.ver}}_lt20_x86_64.AppImage.asc/download">SourceForge</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+  <details>
+    <summary>Checksums and library versions</summary>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>
+            <strong>Version</strong>
+          </th>
+          <th>
+            <strong>SHA2-256</strong>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ appimage.ver }}</td>
+          <td class="wordBreak">
+            <code>{{ appimage.hash_lt12 }}</code>
+          </td>
+        </tr>
+        <tr>
+          <td>{{ appimage.ver }} (lt20)</td>
+          <td class="wordBreak">
+            <code>{{ appimage.hash_lt20 }}</code>
+          </td>
+        </tr>
+        <tr>
+          <td>{{ appimage.ver_unstable }} (lt12)</td>
+          <td class="wordBreak">
+            <code>{{ appimage.hash_lt12_unstable }}</code>
+          </td>
+        </tr>
+        <tr>
+          <td>{{ appimage.ver_unstable }} (lt20)</td>
+          <td class="wordBreak">
+            <code>{{ appimage.hash_lt20_unstable }}</code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>
+            <strong>Library</strong>
+          </th>
+          <th>
+            <strong>Version</strong>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar</td>
+          <td>{{ appimage.lt_ver }}</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>{{ appimage.qt_ver }}</td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>{{ appimage.boost_ver }}</td>
+        </tr>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar (unstable)</td>
+          <td>{{ appimage.lt_ver_unstable }}</td>
+        </tr>
+        <tr>
+          <td>Qt (unstable)</td>
+          <td>{{ appimage.qt_ver_unstable }}</td>
+        </tr>
+        <tr>
+          <td>Boost (unstable)</td>
+          <td>{{ appimage.boost_ver_unstable }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+  <section class="betaDownloadsSection">
+    <h4>
+      {% heroicon "outline" "beaker" %} Beta (v{{ appimage.ver_unstable }})
+    </h4>
+    <a href="https://www.fosshub.com/qBittorrent.html">
+      <p>Download qBittorrent Beta for Linux (App Image)</p>
+    </a>
+    <details>
+      <summary class="downloadsOptions">See additional download options</summary>
+      <table class="downloadsTable">
+        <thead>
+          <tr>
+            <th>AppImage</th>
+            <th>Info</th>
+            <th>Mirrors</th>
+            <th>PGP Signature</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html">{{ appimage.ver_unstable }} (lt12)</a>
+            </td>
+            <td>Uses Qt6 and libtorrent 1.2.x series</td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage.ver_unstable}}_lt12_x86_64.AppImage">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-{{appimage.ver_unstable}}/AppImage/qbittorrent-{{appimage.ver_unstable}}_lt12_x86_64.AppImage/download">SourceForge</a>
+            </td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage.ver_unstable}}_lt12_x86_64.AppImage.asc">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-{{appimage.ver_unstable}}/AppImage/qbittorrent-{{appimage.ver_unstable}}_lt12_x86_64.AppImage.asc/download">SourceForge</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html">{{ appimage.ver_unstable }} (lt20)</a>
+            </td>
+            <td>Uses Qt6 and libtorrent 2.0.x series</td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage.ver_unstable}}_lt20_x86_64.AppImage">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-{{appimage.ver_unstable}}/AppImage/qbittorrent-{{appimage.ver_unstable}}_lt20_x86_64.AppImage/download">SourceForge</a>
+            </td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage.ver_unstable}}_lt20_x86_64.AppImage.asc">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-{{appimage.ver_unstable}}/AppImage/qbittorrent-{{appimage.ver_unstable}}_lt20_x86_64.AppImage.asc/download">SourceForge</a>
+            </td>
+          </tr>
+        </table>
+        </tbody>
+    </details>
+  </section>
+</section>

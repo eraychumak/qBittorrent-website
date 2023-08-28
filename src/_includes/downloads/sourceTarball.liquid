@@ -1,0 +1,101 @@
+<section class="downloadPlatformSection" id="downloadsSourceSection">
+  <header>
+    <img
+      src="/img/tar-logo.svg"
+      alt="tarball icon"
+      height="32">
+    <h3>Source Tarball</h3>
+  </header>
+  <div class="flexbox">
+    <div class="box1"></div>
+    <div>
+      <p>
+        <strong>Current version: qBittorrent v{{ src.ver }}</strong>
+      </p>
+      <p>
+        <strong>Download:
+          <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-{{src.ver}}/qbittorrent-{{src.ver}}.tar.gz/download">TAR.GZ</a>
+          /
+          <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-{{src.ver}}/qbittorrent-{{src.ver}}.tar.gz.asc/download">PGP signature</a>
+        </strong>
+        (SourceForge)<br>
+        <strong>Download:
+          <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-{{src.ver}}/qbittorrent-{{src.ver}}.tar.xz/download">TAR.XZ</a>
+          /
+          <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-{{src.ver}}/qbittorrent-{{src.ver}}.tar.xz.asc/download">PGP signature</a>
+        </strong>
+        (SourceForge)
+      </p>
+      <p>
+        Compile instructions over
+        <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation" target="_blank">here</a>.
+      </p>
+      <table class="downloadsTable">
+        <tbody>
+          <thead>
+            <tr>
+              <th>
+                <strong>Checksum</strong>
+              </th>
+              <th>
+                <strong>SHA2-256</strong>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>TAR.GZ</td>
+              <td class="wordBreak">
+                <code>{{ src.hash_gz }}</code>
+              </td>
+            </tr>
+            <tr>
+              <td>TAR.XZ</td>
+              <td class="wordBreak">
+                <code>{{ src.hash_xz }}</code>
+              </td>
+            </tr>
+          </tbody>
+        </tbody>
+      </table>
+      <table class="downloadsTable">
+        <thead>
+          <tr>
+            <th>
+              <strong>Dependency</strong>
+            </th>
+            <th>
+              <strong>Recommended version</strong>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="nobr">libtorrent-rasterbar</td>
+            <td>1.2 branch latest release</td>
+          </tr>
+          <tr>
+            <td>Qt</td>
+            <td>Latest stable release</td>
+          </tr>
+          <tr>
+            <td>Boost</td>
+            <td>Latest stable release</td>
+          </tr>
+          <tr>
+            <td>OpenSSL</td>
+            <td>1.1 branch latest release</td>
+          </tr>
+          <tr>
+            <td>zlib</td>
+            <td>Latest stable release</td>
+          </tr>
+          <tr>
+            <td>Python<br>(optional, runtime only)</td>
+            <td>Versions later than 3.5.0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

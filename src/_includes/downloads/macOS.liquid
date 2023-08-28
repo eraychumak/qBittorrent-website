@@ -1,0 +1,200 @@
+<section class="downloadPlatformSection macOS" id="downloadsMacOSSection">
+  <header>
+    <img
+      src="/img/os/applelogo.svg"
+      alt="macOS icon"
+      height="32">
+    <h3>macOS Monterey</h3>
+  </header>
+  <p>Also works for: Catalina and Big Sur</p>
+  <a class="mainDownloadBtn" href="https://www.fosshub.com/qBittorrent.html">
+    <p>Download qBittorrent (v{{ macos.ver }}) for macOS</p>
+  </a>
+  <details>
+    <summary class="downloadsOptions">See additional download options</summary>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>DMG</th>
+          <th>Info</th>
+          <th>Mirrors</th>
+          <th>PGP Signature</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html">{{ macos.ver }}</a>
+          </td>
+          <td>Uses Qt6 and libtorrent 1.2.x series.</td>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos.ver}}.dmg">FossHub</a>,
+            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-{{macos.ver}}/qbittorrent-{{macos.ver}}.dmg/download">SourceForge</a>
+          </td>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos.ver}}.dmg.asc">FossHub</a>,
+            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-{{macos.ver}}/qbittorrent-{{macos.ver}}.dmg.asc/download">SourceForge</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html">{{ macos.ver }} (lt20)</a>
+          </td>
+          <td>Uses Qt6 and libtorrent 2.0.x series.</td>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos.ver}}_lt20.dmg">FossHub</a>,
+            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-{{macos.ver}}/qbittorrent-{{macos.ver}}_lt20.dmg/download">SourceForge</a>
+          </td>
+          <td>
+            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos.ver}}_lt20.dmg.asc">FossHub</a>,
+            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-{{macos.ver}}/qbittorrent-{{macos.ver}}_lt20.dmg.asc/download">SourceForge</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+  <details>
+    <summary>Checksums and library versions</summary>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>
+            <strong>Version</strong>
+          </th>
+          <th>
+            <strong>SHA2-256</strong>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ macos.ver }}</td>
+          <td class="wordBreak">
+            <code>{{ macos.hash_lt12 }}</code>
+          </td>
+        </tr>
+        <tr>
+          <td>{{ macos.ver }} (lt20)</td>
+          <td class="wordBreak">
+            <code>{{ macos.hash_lt20 }}</code>
+          </td>
+        </tr>
+        <tr>
+          <td>{{ macos.ver_unstable }} (lt12)</td>
+          <td class="wordBreak">
+            <code>{{ macos.hash_lt12_unstable }}</code>
+          </td>
+        </tr>
+        <tr>
+          <td>{{ macos.ver_unstable }} (lt20)</td>
+          <td class="wordBreak">
+            <code>{{ macos.hash_lt20_unstable }}</code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>
+            <strong>Library</strong>
+          </th>
+          <th>
+            <strong>Version</strong>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar</td>
+          <td>{{ macos.lt_ver }}</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>{{ macos.qt_ver }}</td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>{{ macos.boost_ver }}</td>
+        </tr>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar (unstable)</td>
+          <td>{{ macos.lt_ver_unstable }}</td>
+        </tr>
+        <tr>
+          <td>Qt (unstable)</td>
+          <td>{{ macos.qt_ver_unstable }}</td>
+        </tr>
+        <tr>
+          <td>Boost (unstable)</td>
+          <td>{{ macos.boost_ver_unstable }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+  <section class="betaDownloadsSection">
+    <h4>
+      {% heroicon "outline" "beaker" %} Beta (v{{ macos.ver_unstable }})
+    </h4>
+    <a href="https://www.fosshub.com/qBittorrent.html">
+      <p>Download qBittorrent Beta for macOS</p>
+    </a>
+    <details>
+      <summary class="downloadsOptions">See additional download options</summary>
+      <table class="downloadsTable">
+        <thead>
+          <tr>
+            <th>DMG</th>
+            <th>Info</th>
+            <th>Mirrors</th>
+            <th>PGP Signature</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html">{{ macos.ver_unstable }} (lt12)</a>
+            </td>
+            <td>Uses Qt6 and libtorrent 1.2.x series</td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos.ver_unstable}}_lt12.dmg">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-{{macos.ver_unstable}}/macOS/qbittorrent-{{macos.ver_unstable}}_lt12.dmg/download">SourceForge</a>
+            </td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos.ver_unstable}}_lt12.dmg.asc">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-{{macos.ver_unstable}}/macOS/qbittorrent-{{macos.ver_unstable}}_lt12.dmg.asc/download">SourceForge</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html">{{ macos.ver_unstable }} (lt20)</a>
+            </td>
+            <td>Uses Qt6 and libtorrent 2.0.x series</td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos.ver_unstable}}_lt20.dmg">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-{{macos.ver_unstable}}/macOS/qbittorrent-{{macos.ver_unstable}}_lt20.dmg/download">SourceForge</a>
+            </td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos.ver_unstable}}_lt20.dmg.asc">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-{{macos.ver_unstable}}/macOS/qbittorrent-{{macos.ver_unstable}}_lt20.dmg.asc/download">SourceForge</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </details>
+  </section>
+  <div class="importantNoteSecondary">
+    <p>
+      <strong>NOTE:</strong>
+      The macOS version isn't well taken care of because we don't have people actively working on it. We really need macOS developers.
+      If you're one and want to assist, check our bug tracker for macOS problems. You can also tackle issues that bother you personally.
+    </p>
+    <p>
+      See our
+      <strong>
+        <a href="https://github.com/qbittorrent/qBittorrent/blob/master/CONTRIBUTING.md">contributing guide</a>
+      </strong>
+      for more info.
+    </p>
+  </div>
+</section>
