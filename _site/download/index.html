@@ -1,58 +1,169 @@
-<h2>Downloads</h2>
+<!DOCTYPE html>
 
-<h3>Public Key for PGP Signing</h3>
-<p>
-  Starting from v3.3.4 all source tarballs and binaries are signed.
-</p>
-<p>
-  The key currently used is:
-  <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x6E4A2D025B7CC9A2" target="_blank">
-    <code>4096R/5B7CC9A2</code>
-  </a><br>
-  Fingerprint:
-  <code>D8F3DA77AAC6741053599C136E4A2D025B7CC9A2</code><br>
-  You can also download it from
-  <a href="https://github.com/qbittorrent/qBittorrent/raw/master/5B7CC9A2.asc" target="_blank">here</a>
-</p>
-<p>
-  Previously the following key was used to sign the v3.3.4 source tarballs and v3.3.4 Windows installer
-  <strong>only</strong>:
-  <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0xA1ACCAE4520EC6F6" target="_blank">
-    <code>4096R/520EC6F6</code>
-  </a><br>
-  Fingerprint:
-  <code>F4A5FD201B117B1C2AB590E2A1ACCAE4520EC6F6</code>
-</p>
-<br>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="qBittorrent Official Website">
+    <meta name="keywords" content="qBittorrent, torrent client, BitTorrent protocol, cross-platform, free and open-source software, GNU GPL, libtorrent-rasterbar, Qt, C++">
+    <meta name="author" content="qBittorrent Development Team: https://github.com/qbittorrent">
+    <meta name="robots" content="NOODP">
+    <meta name="google-site-verification" content="2P14de1zV_NTk03Ebnc0wpPKWaeJoj7B9Tc_HtRkOfE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>qBittorrent : Official</title>
 
-<h3>Windows 7 / 8 / 10 / 11</h3>
-<div class="flexbox">
-  <div class="box1">
-    <img src="img/os/winlogo.webp" alt="Windows icon">
-  </div>
-  <div>
-    <p class="releaseParagraph">
-      <strong>
-        <a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.5.4</a>
-      </strong>
-      (multiple installer choice)
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="favicon.ico"
+      sizes="16x16 32x32 64x64">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/style.css">
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/header.css">
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/footer.css">
+
+    <link rel="dns-prefetch" href="https://git.qbittorrent.org">
+    <link rel="dns-prefetch" href="https://bugs.qbittorrent.org">
+    <link rel="dns-prefetch" href="https://wiki.qbittorrent.org">
+    <link rel="dns-prefetch" href="https://forum.qbittorrent.org">
+  </head>
+  <body><header class="mainHeader">
+  <img src="/img/logo.svg" alt="logo">
+  <h1>qBittorrent</h1>
+  <nav>
+    <ul>
+      <li >
+        <a href="/">Home</a>
+      </li>
+      <li >
+        <a href="/news">News</a>
+      </li>
+      <li>
+        <a href="https://forum.qbittorrent.org" target="_blank">Forum</a>
+      </li>
+      <li class="first">
+        <a href="/download">Download</a>
+      </li>
+      <li>
+        <a href="https://sourceforge.net/projects/qbittorrent/#screenshots">Screenshots</a>
+      </li>
+      <li>
+        <a href="https://wiki.qbittorrent.org" target="_blank">Wiki</a>
+      </li>
+      <li>
+        <a href="https://git.qbittorrent.org" target="_blank">Development</a>
+      </li>
+      <li>
+        <a href="https://bugs.qbittorrent.org" target="_blank">Bugs</a>
+      </li>
+    </ul>
+  </nav>
+</header><main>
+      
+<section>
+  <h2>Downloads</h2>
+  <section class="downloadsContents">
+    <h3>Skip to:</h3>
+    <ul>
+      <li><a href="#pubKeySection">Public Key for PGP Signing</a></li>
+      <li><a href="#downloadsWindowsSection">Windows</a></li>
+      <li><a href="#downloadsMacOSSection">macOS</a></li>
+      <li><a href="#downloadsLinuxSection">Linux</a></li>
+      <li><a href="#downloadsSourceSection">Source Tarball</a></li>
+      <li><a href="#downloadsOtherSection">Other Binary Packages</a></li>
+    </ul>
+  </section>
+  <section class="downloadsSigningSection" id="pubKeySection">
+    <h3>Public Key for PGP Signing</h3>
+    <section class="importantNote">
+      <p>
+        <strong>Warning:</strong>
+        Starting from v3.3.4 all source tarballs and binaries are signed.
+      </p>
+      <div class="downloadsOldKey">
+        <p>
+          Previously the following key was used to sign the
+          v3.3.4 source tarballs and v3.3.4 Windows installer
+          <strong>only</strong>:<br>
+          <strong>Key:</strong>
+          <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0xA1ACCAE4520EC6F6" target="_blank">
+            <code>4096R/520EC6F6</code>
+          </a>
+          <br>
+          <strong>Fingerprint:</strong>
+          <code>F4A5FD201B117B1C2AB590E2A1ACCAE4520EC6F6</code>
+        </p>
+      </div>
+    </section>
+    <h4>Current key used:</h4>
+    <section class="copyToClipboard">
+      <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x6E4A2D025B7CC9A2" target="_blank">
+        <p>
+          <code>4096R/5B7CC9A2</code>
+        </p>
+      </a>
+      <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="heroIcon" data-heroicon-name="clipboard-copy" data-heroicon-style="outline"><path stroke-linecap="round" stroke-linejoin="round" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/></svg></button>
+    </section>
+    <h4>Fingerprint</h4>
+    <section class="copyToClipboard">
+      <p>
+        <code>D8F3DA77AAC6741053599C136E4A2D025B7CC9A2</code>
+      </p>
+      <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="heroIcon" data-heroicon-name="clipboard-copy" data-heroicon-style="outline"><path stroke-linecap="round" stroke-linejoin="round" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/></svg></button>
+    </section>
+    <p>
+      You can also download it from
+      <a href="https://github.com/qbittorrent/qBittorrent/raw/master/5B7CC9A2.asc" target="_blank">here</a>.
     </p>
-    <details>
-      <summary class="downloadsOptions">(Additional download options)</summary>
-      <br>
-      <table class="downloads-table">
+  </section>
+</section><section class="downloadPlatformSection windows" id="downloadsWindowsSection">
+  <header>
+    <img
+      src="/img/os/winlogo.svg"
+      alt="Windows 11 logo"
+      height="32">
+    <h3>Windows 11</h3>
+  </header>
+  <p>Also works for: Windows 7 / 8 / 10</p>
+  <a class="mainDownloadBtn" href="https://www.fosshub.com/qBittorrent.html">
+    <p>Download qBittorrent (v4.5.4) for Windows</p>
+  </a>
+  <details>
+    <summary class="downloadsOptions">See additional download options</summary>
+    <table class="downloadsTable">
+      <thead>
         <tr>
           <th>Installer (64-bit)</th>
           <th>Info</th>
           <th>Mirrors</th>
           <th>PGP Signature</th>
         </tr>
+      </thead>
+      <tbody>
         <tr>
           <td>
             <a href="https://www.fosshub.com/qBittorrent.html">4.5.4</a>
           </td>
-          <td>Uses Qt5 and libtorrent 1.2.x series.</td>
+          <td>Uses Qt5 and libtorrent 1.2.x series</td>
           <td>
             <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.4_x64_setup.exe">FossHub</a>,
             <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.5.4/qbittorrent_4.5.4_x64_setup.exe/download">SourceForge</a>
@@ -64,9 +175,9 @@
         </tr>
         <tr>
           <td>
-            <a href="https://www.fosshub.com/qBittorrent.html">4.5.4 (lt20 qt5)</a>
+            <a href="https://www.fosshub.com/qBittorrent.html">4.5.4<br>(lt20 qt5)</a>
           </td>
-          <td>Uses Qt5 and libtorrent 2.0.x series.</td>
+          <td>Uses Qt5 and libtorrent 2.0.x series</td>
           <td>
             <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.4_lt20_qt5_x64_setup.exe">FossHub</a>,
             <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.5.4/qbittorrent_4.5.4_lt20_qt5_x64_setup.exe/download">SourceForge</a>
@@ -78,9 +189,9 @@
         </tr>
         <tr>
           <td>
-            <a href="https://www.fosshub.com/qBittorrent.html">4.5.4 (qt6)</a>
+            <a href="https://www.fosshub.com/qBittorrent.html">4.5.4<br>(qt6)</a>
           </td>
-          <td>For Windows 10+. Uses Qt6 and libtorrent 1.2.x series.</td>
+          <td>For Windows 10+. Uses Qt6 and libtorrent 1.2.x series</td>
           <td>
             <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.4_qt6_x64_setup.exe">FossHub</a>,
             <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.5.4/qbittorrent_4.5.4_qt6_x64_setup.exe/download">SourceForge</a>
@@ -92,9 +203,9 @@
         </tr>
         <tr>
           <td>
-            <a href="https://www.fosshub.com/qBittorrent.html">4.5.4 (lt20 qt6)</a>
+            <a href="https://www.fosshub.com/qBittorrent.html">4.5.4<br>(lt20 qt6)</a>
           </td>
-          <td>For Windows 10+. Uses Qt6 and libtorrent 2.0.x series.</td>
+          <td>For Windows 10+. Uses Qt6 and libtorrent 2.0.x series</td>
           <td>
             <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.4_lt20_qt6_x64_setup.exe">FossHub</a>,
             <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.5.4/qbittorrent_4.5.4_lt20_qt6_x64_setup.exe/download">SourceForge</a>
@@ -104,178 +215,184 @@
             <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.5.4/qbittorrent_4.5.4_lt20_qt6_x64_setup.exe.asc/download">SourceForge</a>
           </td>
         </tr>
-      </table>
-    </details>
-    <p class="releaseParagraph">
-      <strong>
-        <a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.6.0beta1</a>
-      </strong>
-      (multiple installer choice)
-    </p>
+      </tbody>
+    </table>
+  </details>
+  <details>
+    <summary>Checksums and Library versions</summary>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>
+            <strong>Version</strong>
+          </th>
+          <th>
+            <strong>SHA2-256</strong>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>4.5.4</td>
+          <td class="wordBreak">
+            <code>3ba266ddbe5624aeedec1a23c6bf86d6cfd5b547e8c1a31169f6a08434c9e615</code>
+          </td>
+        </tr>
+        <tr>
+          <td>4.5.4 (lt20 qt5)</td>
+          <td class="wordBreak">
+            <code>c650f71f6aa38c6fb769e5f809a215eb671632273af37d7825fa0a14729d7b35</code>
+          </td>
+        </tr>
+        <tr>
+          <td>4.5.4 (qt6)</td>
+          <td class="wordBreak">
+            <code>42b1abe7f8d14912f410b55e403b66eb705f47f05df7999194b7e9764e16231d</code>
+          </td>
+        </tr>
+        <tr>
+          <td>4.5.4 (lt20 qt6)</td>
+          <td class="wordBreak">
+            <code>0ce1511db985ea2945704185c0a9ca86b1e581a2c5c70a026d4006a4aa4d8277</code>
+          </td>
+        </tr>
+        <tr>
+          <td>4.6.0beta1 (lt12 qt6)</td>
+          <td class="wordBreak">
+            <code>e2af99045bce9e91c8ae9de893e88dcc37d49eb8f19e7e39fd8fc810920f4379</code>
+          </td>
+        </tr>
+        <tr>
+          <td>4.6.0beta1 (lt20 qt6)</td>
+          <td class="wordBreak">
+            <code>a2d01ed1223593bfeaf9d7dbf8be8ca6c797274dd8e654208d00b5d07aec1c4f</code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>
+            <strong>Library</strong>
+          </th>
+          <th>
+            <strong>Version</strong>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar</td>
+          <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>
+            5.15.10 / 6.4.3
+          </td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>1.82.0</td>
+        </tr>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar (unstable)</td>
+          <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
+        </tr>
+        <tr>
+          <td>Qt (unstable)</td>
+          <td>
+            6.4.3
+          </td>
+        </tr>
+        <tr>
+          <td>Boost (unstable)</td>
+          <td>1.82.0</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+  <p class="importantNote">
+    <strong>Warning:</strong>
+    The builds based on Qt6 need Windows 10 or above
+    <em>(64-bit only)</em>.
+  </p>
+  <aside class="betaDownloadsSection">
+    <h4>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="heroIcon" data-heroicon-name="beaker" data-heroicon-style="outline"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg> Beta (v4.6.0beta1)
+    </h4>
+    <a href="https://www.fosshub.com/qBittorrent.html">
+      <p>Download qBittorrent Beta for Windows</p>
+    </a>
     <details>
-      <summary class="downloadsOptions">(Additional download options)</summary>
-      <br>
-      <table class="downloads-table">
-        <tr>
-          <th>Installer (64-bit)</th>
-          <th>Info</th>
-          <th>Mirrors</th>
-          <th>PGP Signature</th>
-        </tr>
-        <tr>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt12 qt6)</a>
-          </td>
-          <td>For Windows 10+. Uses Qt6 and libtorrent 1.2.x series.</td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.6.0beta1_lt12_qt6_x64_setup.exe">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/Windows/qbittorrent_4.6.0beta1_lt12_qt6_x64_setup.exe/download">SourceForge</a>
-          </td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.6.0beta1_lt12_qt6_x64_setup.exe.asc">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/Windows/qbittorrent_4.6.0beta1_lt12_qt6_x64_setup.exe.asc/download">SourceForge</a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt20 qt6)</a>
-          </td>
-          <td>For Windows 10+. Uses Qt6 and libtorrent 2.0.x series.</td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.6.0beta1_lt20_qt6_x64_setup.exe">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/Windows/qbittorrent_4.6.0beta1_lt20_qt6_x64_setup.exe/download">SourceForge</a>
-          </td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.6.0beta1_lt20_qt6_x64_setup.exe.asc">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/Windows/qbittorrent_4.6.0beta1_lt20_qt6_x64_setup.exe.asc/download">SourceForge</a>
-          </td>
-        </tr>
-      </table>
-    </details>
-    <br><br>
-    <details>
-      <summary>Checksums and Library versions</summary>
-      <br>
-      <table>
+      <summary class="downloadsOptions">See additional download options</summary>
+      <table class="downloadsTable">
+        <thead>
+          <tr>
+            <th>Installer (64-bit)</th>
+            <th>Info</th>
+            <th>Mirrors</th>
+            <th>PGP Signature</th>
+          </tr>
+        </thead>
         <tbody>
           <tr>
             <td>
-              <strong>Version</strong>
+              <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt12 qt6)</a>
+            </td>
+            <td>For Windows 10+. Uses Qt6 and libtorrent 1.2.x series</td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.6.0beta1_lt12_qt6_x64_setup.exe">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/Windows/qbittorrent_4.6.0beta1_lt12_qt6_x64_setup.exe/download">SourceForge</a>
             </td>
             <td>
-              <strong>SHA2-256</strong>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.6.0beta1_lt12_qt6_x64_setup.exe.asc">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/Windows/qbittorrent_4.6.0beta1_lt12_qt6_x64_setup.exe.asc/download">SourceForge</a>
             </td>
           </tr>
-          <tr>
-            <td>4.5.4</td>
-            <td class="wordBreak">
-              <code>3ba266ddbe5624aeedec1a23c6bf86d6cfd5b547e8c1a31169f6a08434c9e615</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.5.4 (lt20 qt5)</td>
-            <td class="wordBreak">
-              <code>c650f71f6aa38c6fb769e5f809a215eb671632273af37d7825fa0a14729d7b35</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.5.4 (qt6)</td>
-            <td class="wordBreak">
-              <code>42b1abe7f8d14912f410b55e403b66eb705f47f05df7999194b7e9764e16231d</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.5.4 (lt20 qt6)</td>
-            <td class="wordBreak">
-              <code>0ce1511db985ea2945704185c0a9ca86b1e581a2c5c70a026d4006a4aa4d8277</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.6.0beta1 (lt12 qt6)</td>
-            <td class="wordBreak">
-              <code>e2af99045bce9e91c8ae9de893e88dcc37d49eb8f19e7e39fd8fc810920f4379</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.6.0beta1 (lt20 qt6)</td>
-            <td class="wordBreak">
-              <code>a2d01ed1223593bfeaf9d7dbf8be8ca6c797274dd8e654208d00b5d07aec1c4f</code>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
           <tr>
             <td>
-              <strong>Library</strong>
+              <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt20 qt6)</a>
+            </td>
+            <td>For Windows 10+. Uses Qt6 and libtorrent 2.0.x series</td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.6.0beta1_lt20_qt6_x64_setup.exe">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/Windows/qbittorrent_4.6.0beta1_lt20_qt6_x64_setup.exe/download">SourceForge</a>
             </td>
             <td>
-              <strong>Version</strong>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.6.0beta1_lt20_qt6_x64_setup.exe.asc">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/Windows/qbittorrent_4.6.0beta1_lt20_qt6_x64_setup.exe.asc/download">SourceForge</a>
             </td>
-          </tr>
-          <tr>
-            <td class="nobr">libtorrent-rasterbar</td>
-            <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
-          </tr>
-          <tr>
-            <td>Qt</td>
-            <td>
-              5.15.10 / 6.4.3
-            </td>
-          </tr>
-          <tr>
-            <td>Boost</td>
-            <td>1.82.0</td>
-          </tr>
-          <tr>
-            <td class="nobr">libtorrent-rasterbar (unstable)</td>
-            <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
-          </tr>
-          <tr>
-            <td>Qt (unstable)</td>
-            <td>
-              6.4.3
-            </td>
-          </tr>
-          <tr>
-            <td>Boost (unstable)</td>
-            <td>1.82.0</td>
           </tr>
         </tbody>
       </table>
     </details>
-    <br><br>
-    <div class="downloadNotesDiv">
-      <p>
-        The builds based on Qt6 need Windows 10+ (64-bit only).
-      </p>
-    </div>
-  </div>
-</div>
-<br>
-
-
-<h3>macOS Catalina / Big Sur / Monterey</h3>
-<div class="flexbox">
-  <div class="box1">
-    <img src="img/os/macoslogo.webp" alt="macOS icon">
-  </div>
-  <div>
-    <p class="releaseParagraph">
-      <strong>
-        <a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.5.4</a>
-      </strong>
-      (multiple DMG choice)
-    </p>
-    <details>
-      <summary class="downloadsOptions">(Additional download options)</summary>
-      <br>
-      <table class="downloads-table">
+  </aside>
+</section><section class="downloadPlatformSection macOS" id="downloadsMacOSSection">
+  <header>
+    <img
+      src="/img/os/applelogo.svg"
+      alt="macOS icon"
+      height="32">
+    <h3>macOS Monterey</h3>
+  </header>
+  <p>Also works for: Catalina and Big Sur</p>
+  <a class="mainDownloadBtn" href="https://www.fosshub.com/qBittorrent.html">
+    <p>Download qBittorrent (v4.5.4) for macOS</p>
+  </a>
+  <details>
+    <summary class="downloadsOptions">See additional download options</summary>
+    <table class="downloadsTable">
+      <thead>
         <tr>
           <th>DMG</th>
           <th>Info</th>
           <th>Mirrors</th>
           <th>PGP Signature</th>
         </tr>
+      </thead>
+      <tbody>
         <tr>
           <td>
             <a href="https://www.fosshub.com/qBittorrent.html">4.5.4</a>
@@ -304,167 +421,185 @@
             <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.5.4/qbittorrent-4.5.4_lt20.dmg.asc/download">SourceForge</a>
           </td>
         </tr>
+      </tbody>
+    </table>
+  </details>
+  <details>
+    <summary>Checksums and library versions</summary>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>
+            <strong>Version</strong>
+          </th>
+          <th>
+            <strong>SHA2-256</strong>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>4.5.4</td>
+          <td class="wordBreak">
+            <code>86f6b73da30ab14e7f7e7ac829b1bbf67469340ecd099a527a3661b8e5da82b0</code>
+          </td>
+        </tr>
+        <tr>
+          <td>4.5.4 (lt20)</td>
+          <td class="wordBreak">
+            <code>36c9218feeb081d740b46ef9a3e2d1084482af39ba67f8a0166e345bd633a26b</code>
+          </td>
+        </tr>
+        <tr>
+          <td>4.6.0beta1 (lt12)</td>
+          <td class="wordBreak">
+            <code>c437d48a84a4c8ec8c0ccd633def098ebfdbb6043755d1ab182a19076bc213c9</code>
+          </td>
+        </tr>
+        <tr>
+          <td>4.6.0beta1 (lt20)</td>
+          <td class="wordBreak">
+            <code>c35ee4e191350da0fe84b6e4fa1856a8ac375590bed7524ff9b6f93aee9a023b</code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>
+            <strong>Library</strong>
+          </th>
+          <th>
+            <strong>Version</strong>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar</td>
+          <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>6.4.3</td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>1.82.0</td>
+        </tr>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar (unstable)</td>
+          <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
+        </tr>
+        <tr>
+          <td>Qt (unstable)</td>
+          <td>6.4.3</td>
+        </tr>
+        <tr>
+          <td>Boost (unstable)</td>
+          <td>1.82.0</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+  <section class="betaDownloadsSection">
+    <h4>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="heroIcon" data-heroicon-name="beaker" data-heroicon-style="outline"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg> Beta (v4.6.0beta1)
+    </h4>
+    <a href="https://www.fosshub.com/qBittorrent.html">
+      <p>Download qBittorrent Beta for macOS</p>
+    </a>
+    <details>
+      <summary class="downloadsOptions">See additional download options</summary>
+      <table class="downloadsTable">
+        <thead>
+          <tr>
+            <th>DMG</th>
+            <th>Info</th>
+            <th>Mirrors</th>
+            <th>PGP Signature</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt12)</a>
+            </td>
+            <td>Uses Qt6 and libtorrent 1.2.x series</td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt12.dmg">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/macOS/qbittorrent-4.6.0beta1_lt12.dmg/download">SourceForge</a>
+            </td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt12.dmg.asc">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/macOS/qbittorrent-4.6.0beta1_lt12.dmg.asc/download">SourceForge</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt20)</a>
+            </td>
+            <td>Uses Qt6 and libtorrent 2.0.x series</td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt20.dmg">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/macOS/qbittorrent-4.6.0beta1_lt20.dmg/download">SourceForge</a>
+            </td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt20.dmg.asc">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/macOS/qbittorrent-4.6.0beta1_lt20.dmg.asc/download">SourceForge</a>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </details>
-    <p class="releaseParagraph">
-      <strong>
-        <a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.6.0beta1</a>
-      </strong>
-      (multiple DMG choice)
+  </section>
+  <div class="importantNoteSecondary">
+    <p>
+      <strong>NOTE:</strong>
+      The macOS version isn't well taken care of because we don't have people actively working on it. We really need macOS developers.
+      If you're one and want to assist, check our bug tracker for macOS problems. You can also tackle issues that bother you personally.
     </p>
-    <details>
-      <summary class="downloadsOptions">(Additional download options)</summary>
-      <br>
-      <table class="downloads-table">
-        <tr>
-          <th>DMG</th>
-          <th>Info</th>
-          <th>Mirrors</th>
-          <th>PGP Signature</th>
-        </tr>
-        <tr>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt12)</a>
-          </td>
-          <td>Uses Qt6 and libtorrent 1.2.x series.</td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt12.dmg">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/macOS/qbittorrent-4.6.0beta1_lt12.dmg/download">SourceForge</a>
-          </td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt12.dmg.asc">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/macOS/qbittorrent-4.6.0beta1_lt12.dmg.asc/download">SourceForge</a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt20)</a>
-          </td>
-          <td>Uses Qt6 and libtorrent 2.0.x series.</td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt20.dmg">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/macOS/qbittorrent-4.6.0beta1_lt20.dmg/download">SourceForge</a>
-          </td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt20.dmg.asc">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/macOS/qbittorrent-4.6.0beta1_lt20.dmg.asc/download">SourceForge</a>
-          </td>
-        </tr>
-      </table>
-    </details>
-    <br><br>
-    <details>
-      <summary>Checksums and Library versions</summary>
-      <br>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <strong>Version</strong>
-            </td>
-            <td>
-              <strong>SHA2-256</strong>
-            </td>
-          </tr>
-          <tr>
-            <td>4.5.4</td>
-            <td class="wordBreak">
-              <code>86f6b73da30ab14e7f7e7ac829b1bbf67469340ecd099a527a3661b8e5da82b0</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.5.4 (lt20)</td>
-            <td class="wordBreak">
-              <code>36c9218feeb081d740b46ef9a3e2d1084482af39ba67f8a0166e345bd633a26b</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.6.0beta1 (lt12)</td>
-            <td class="wordBreak">
-              <code>c437d48a84a4c8ec8c0ccd633def098ebfdbb6043755d1ab182a19076bc213c9</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.6.0beta1 (lt20)</td>
-            <td class="wordBreak">
-              <code>c35ee4e191350da0fe84b6e4fa1856a8ac375590bed7524ff9b6f93aee9a023b</code>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td>
-              <strong>Library</strong>
-            </td>
-            <td>
-              <strong>Version</strong>
-            </td>
-          </tr>
-          <tr>
-            <td class="nobr">libtorrent-rasterbar</td>
-            <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
-          </tr>
-          <tr>
-            <td>Qt</td>
-            <td>6.4.3</td>
-          </tr>
-          <tr>
-            <td>Boost</td>
-            <td>1.82.0</td>
-          </tr>
-          <tr>
-            <td class="nobr">libtorrent-rasterbar (unstable)</td>
-            <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
-          </tr>
-          <tr>
-            <td>Qt (unstable)</td>
-            <td>6.4.3</td>
-          </tr>
-          <tr>
-            <td>Boost (unstable)</td>
-            <td>1.82.0</td>
-          </tr>
-        </tbody>
-      </table>
-    </details>
-    <br><br>
-    <div class="downloadNotesDiv">
-      <p>
-        The macOS version is
-        <strong>barely supported,</strong>
-        because we don't have active macOS developers/contributors.<br>
-        The project is in need of macOS developers. If you are a macOS developer willing to help, just go to our bug tracker for a list of macOS related issues. Or try to fix bugs that you yourself have discovered and annoy you.
-      </p>
-    </div>
+    <p>
+      See our
+      <strong>
+        <a href="https://github.com/qbittorrent/qBittorrent/blob/master/CONTRIBUTING.md">contributing guide</a>
+      </strong>
+      for more info.
+    </p>
   </div>
-</div>
-<br>
-
-<h3>Linux</h3>
-<div class="flexbox">
-  <div class="box1">
+</section><section class="downloadPlatformSection linux" id="downloadsLinuxSection">
+  <header>
     <img
-      src="img/os/tux.svg"
+      src="/img/os/tux.svg"
       alt="linux icon"
-      width="100">
-  </div>
-  <div>
-    <p class="releaseParagraph">
-      <strong>
-        <a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.5.4</a>
-      </strong>
-      (multiple AppImage choice)
+      height="32">
+    <h3>Linux</h3>
+  </header>
+  <section class="importantNote">
+    <p>
+      <strong>NOTE:</strong>
+      The default downloads below is an AppImage created on Ubuntu 20.04. In general, it should work on any other similarly aged Linux distro.</p>
+    <p>If you're looking for native packages or Ubuntu PPAs, you can find them in the
+      <a href="#otherBinaryPackages">Other Binary Packages</a>
+      section below.
     </p>
-    <details>
-      <summary class="downloadsOptions">(Additional download options)</summary>
-      <br>
-      <table class="downloads-table">
+  </section>
+  <a class="mainDownloadBtn" href="https://www.fosshub.com/qBittorrent.html">
+    <p>Download qBittorrent (v4.5.4) for Linux (AppImage)</p>
+  </a>
+  <details>
+    <summary class="downloadsOptions">See additional download options</summary>
+    <table class="downloadsTable">
+      <thead>
         <tr>
           <th>AppImage</th>
           <th>Info</th>
           <th>Mirrors</th>
           <th>PGP Signature</th>
         </tr>
+      </thead>
+      <tbody>
         <tr>
           <td>
             <a href="https://www.fosshub.com/qBittorrent.html">4.5.4</a>
@@ -493,547 +628,659 @@
             <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.5.4/qbittorrent-4.5.4_lt20_x86_64.AppImage.asc/download">SourceForge</a>
           </td>
         </tr>
-      </table>
-    </details>
-    <p class="releaseParagraph">
-      <strong>
-        <a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.6.0beta1</a>
-      </strong>
-      (multiple AppImage choice)
-    </p>
-    <details>
-      <summary class="downloadsOptions">(Additional download options)</summary>
-      <br>
-      <table class="downloads-table">
-        <tr>
-          <th>AppImage</th>
-          <th>Info</th>
-          <th>Mirrors</th>
-          <th>PGP Signature</th>
-        </tr>
-        <tr>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt12)</a>
-          </td>
-          <td>Uses Qt6 and libtorrent 1.2.x series.</td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt12_x86_64.AppImage">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/AppImage/qbittorrent-4.6.0beta1_lt12_x86_64.AppImage/download">SourceForge</a>
-          </td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt12_x86_64.AppImage.asc">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/AppImage/qbittorrent-4.6.0beta1_lt12_x86_64.AppImage.asc/download">SourceForge</a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt20)</a>
-          </td>
-          <td>Uses Qt6 and libtorrent 2.0.x series.</td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt20_x86_64.AppImage">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/AppImage/qbittorrent-4.6.0beta1_lt20_x86_64.AppImage/download">SourceForge</a>
-          </td>
-          <td>
-            <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt20_x86_64.AppImage.asc">FossHub</a>,
-            <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/AppImage/qbittorrent-4.6.0beta1_lt20_x86_64.AppImage.asc/download">SourceForge</a>
-          </td>
-        </tr>
-      </table>
-    </details>
-    <br><br>
-    <details>
-      <summary>Checksums and Library versions</summary>
-      <br>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <strong>Version</strong>
-            </td>
-            <td>
-              <strong>SHA2-256</strong>
-            </td>
-          </tr>
-          <tr>
-            <td>4.5.4</td>
-            <td class="wordBreak">
-              <code>b37a1a3bc4784a4d812d5d790181c45d88b88567a69c52ae7b4d47c82db1f6a1</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.5.4 (lt20)</td>
-            <td class="wordBreak">
-              <code>fc1abba3b790e557922cd7ac684454764511ba879a4b57006513bdceca5a62c5</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.6.0beta1 (lt12)</td>
-            <td class="wordBreak">
-              <code>427d2de1711b0e435518ed0b712c0fa895ba3fd1044dbe3e78c849bea4764c2c</code>
-            </td>
-          </tr>
-          <tr>
-            <td>4.6.0beta1 (lt20)</td>
-            <td class="wordBreak">
-              <code>212d39e0f2cb0566883744ec50f2d7e053b261e5cd3fb1d0cb5c269a9862f641</code>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td>
-              <strong>Library</strong>
-            </td>
-            <td>
-              <strong>Version</strong>
-            </td>
-          </tr>
-          <tr>
-            <td class="nobr">libtorrent-rasterbar</td>
-            <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
-          </tr>
-          <tr>
-            <td>Qt</td>
-            <td>6.5.1</td>
-          </tr>
-          <tr>
-            <td>Boost</td>
-            <td>1.82.0</td>
-          </tr>
-          <tr>
-            <td class="nobr">libtorrent-rasterbar (unstable)</td>
-            <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
-          </tr>
-          <tr>
-            <td>Qt (unstable)</td>
-            <td>6.5.1</td>
-          </tr>
-          <tr>
-            <td>Boost (unstable)</td>
-            <td>1.82.0</td>
-          </tr>
-        </tbody>
-      </table>
-    </details>
-    <br><br>
-    <div class="downloadNotesDiv">
-      <p>
-        The AppImage is created on Ubuntu 20.04. It should work on any other similarly aged distro.<br>
-        For native packages and Ubuntu PPAs take a look at the
-        <code>Other Binary Packages</code>
-        section below.
-      </p>
-    </div>
-  </div>
-</div>
-<br>
-
-
-<h3>Source Tarball</h3>
-<div class="flexbox">
-  <div class="box1">
-    <img
-      src="img/tar-logo.svg"
-      alt="tarball icon"
-      width="100">
-  </div>
-  <div>
-    <p>
-      <strong>Current version: qBittorrent v4.5.4</strong>
-    </p>
-    <p>
-      <strong>Download link:
-        <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.5.4/qbittorrent-4.5.4.tar.gz/download">TAR.GZ</a>
-        /
-        <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.5.4/qbittorrent-4.5.4.tar.gz.asc/download">PGP signature</a>
-      </strong>
-      (SourceForge)<br>
-      <strong>Download link:
-        <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.5.4/qbittorrent-4.5.4.tar.xz/download">TAR.XZ</a>
-        /
-        <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.5.4/qbittorrent-4.5.4.tar.xz.asc/download">PGP signature</a>
-      </strong>
-      (SourceForge)
-    </p>
-    <p>
-      Compile instructions over
-      <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation" target="_blank">here</a>.
-    </p>
-    <table>
-      <tbody>
-        <tr>
-          <td>
-            <strong>Checksum</strong>
-          </td>
-          <td>
-            <strong>SHA2-256</strong>
-          </td>
-        </tr>
-        <tr>
-          <td>TAR.GZ</td>
-          <td class="wordBreak">
-            <code>8a505cff928cc6996b07aff932c269b7e4e6705eefbe460fc691bf599846d789</code>
-          </td>
-        </tr>
-        <tr>
-          <td>TAR.XZ</td>
-          <td class="wordBreak">
-            <code>f92bcd3ed25600796c59257c507e56a252a65af60bd042b71f1e7ff3fe5264da</code>
-          </td>
-        </tr>
       </tbody>
+    </table>
+  </details>
+  <details>
+    <summary>Checksums and library versions</summary>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>
+            <strong>Version</strong>
+          </th>
+          <th>
+            <strong>SHA2-256</strong>
+          </th>
+        </tr>
+      </thead>
       <tbody>
         <tr>
-          <td>
-            <strong>Dependency</strong>
-          </td>
-          <td>
-            <strong>Recommended version</strong>
+          <td>4.5.4</td>
+          <td class="wordBreak">
+            <code>b37a1a3bc4784a4d812d5d790181c45d88b88567a69c52ae7b4d47c82db1f6a1</code>
           </td>
         </tr>
         <tr>
-          <td class="nobr">libtorrent-rasterbar</td>
-          <td>1.2 branch latest release</td>
+          <td>4.5.4 (lt20)</td>
+          <td class="wordBreak">
+            <code>fc1abba3b790e557922cd7ac684454764511ba879a4b57006513bdceca5a62c5</code>
+          </td>
         </tr>
         <tr>
-          <td>Qt</td>
-          <td>Latest stable release</td>
+          <td>4.6.0beta1 (lt12)</td>
+          <td class="wordBreak">
+            <code>427d2de1711b0e435518ed0b712c0fa895ba3fd1044dbe3e78c849bea4764c2c</code>
+          </td>
         </tr>
         <tr>
-          <td>Boost</td>
-          <td>Latest stable release</td>
-        </tr>
-        <tr>
-          <td>OpenSSL</td>
-          <td>1.1 branch latest release</td>
-        </tr>
-        <tr>
-          <td>zlib</td>
-          <td>Latest stable release</td>
-        </tr>
-        <tr>
-          <td>Python (optional, runtime only)</td>
-          <td>Versions later than 3.5.0</td>
+          <td>4.6.0beta1 (lt20)</td>
+          <td class="wordBreak">
+            <code>212d39e0f2cb0566883744ec50f2d7e053b261e5cd3fb1d0cb5c269a9862f641</code>
+          </td>
         </tr>
       </tbody>
     </table>
+    <table class="downloadsTable">
+      <thead>
+        <tr>
+          <th>
+            <strong>Library</strong>
+          </th>
+          <th>
+            <strong>Version</strong>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar</td>
+          <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>6.5.1</td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>1.82.0</td>
+        </tr>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar (unstable)</td>
+          <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
+        </tr>
+        <tr>
+          <td>Qt (unstable)</td>
+          <td>6.5.1</td>
+        </tr>
+        <tr>
+          <td>Boost (unstable)</td>
+          <td>1.82.0</td>
+        </tr>
+      </tbody>
+    </table>
+  </details>
+  <section class="betaDownloadsSection">
+    <h4>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="heroIcon" data-heroicon-name="beaker" data-heroicon-style="outline"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg> Beta (v4.6.0beta1)
+    </h4>
+    <a href="https://www.fosshub.com/qBittorrent.html">
+      <p>Download qBittorrent Beta for Linux (App Image)</p>
+    </a>
+    <details>
+      <summary class="downloadsOptions">See additional download options</summary>
+      <table class="downloadsTable">
+        <thead>
+          <tr>
+            <th>AppImage</th>
+            <th>Info</th>
+            <th>Mirrors</th>
+            <th>PGP Signature</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt12)</a>
+            </td>
+            <td>Uses Qt6 and libtorrent 1.2.x series</td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt12_x86_64.AppImage">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/AppImage/qbittorrent-4.6.0beta1_lt12_x86_64.AppImage/download">SourceForge</a>
+            </td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt12_x86_64.AppImage.asc">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/AppImage/qbittorrent-4.6.0beta1_lt12_x86_64.AppImage.asc/download">SourceForge</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html">4.6.0beta1 (lt20)</a>
+            </td>
+            <td>Uses Qt6 and libtorrent 2.0.x series</td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt20_x86_64.AppImage">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/AppImage/qbittorrent-4.6.0beta1_lt20_x86_64.AppImage/download">SourceForge</a>
+            </td>
+            <td>
+              <a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.6.0beta1_lt20_x86_64.AppImage.asc">FossHub</a>,
+              <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.6.0beta1/AppImage/qbittorrent-4.6.0beta1_lt20_x86_64.AppImage.asc/download">SourceForge</a>
+            </td>
+          </tr>
+        </table>
+        </tbody>
+    </details>
+  </section>
+</section><section class="downloadPlatformSection" id="downloadsSourceSection">
+  <header>
+    <img
+      src="/img/tar-logo.svg"
+      alt="tarball icon"
+      height="32">
+    <h3>Source Tarball</h3>
+  </header>
+  <div class="flexbox">
+    <div class="box1"></div>
+    <div>
+      <p>
+        <strong>Current version: qBittorrent v4.5.4</strong>
+      </p>
+      <p>
+        <strong>Download:
+          <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.5.4/qbittorrent-4.5.4.tar.gz/download">TAR.GZ</a>
+          /
+          <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.5.4/qbittorrent-4.5.4.tar.gz.asc/download">PGP signature</a>
+        </strong>
+        (SourceForge)<br>
+        <strong>Download:
+          <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.5.4/qbittorrent-4.5.4.tar.xz/download">TAR.XZ</a>
+          /
+          <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.5.4/qbittorrent-4.5.4.tar.xz.asc/download">PGP signature</a>
+        </strong>
+        (SourceForge)
+      </p>
+      <p>
+        Compile instructions over
+        <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation" target="_blank">here</a>.
+      </p>
+      <table class="downloadsTable">
+        <tbody>
+          <thead>
+            <tr>
+              <th>
+                <strong>Checksum</strong>
+              </th>
+              <th>
+                <strong>SHA2-256</strong>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>TAR.GZ</td>
+              <td class="wordBreak">
+                <code>8a505cff928cc6996b07aff932c269b7e4e6705eefbe460fc691bf599846d789</code>
+              </td>
+            </tr>
+            <tr>
+              <td>TAR.XZ</td>
+              <td class="wordBreak">
+                <code>f92bcd3ed25600796c59257c507e56a252a65af60bd042b71f1e7ff3fe5264da</code>
+              </td>
+            </tr>
+          </tbody>
+        </tbody>
+      </table>
+      <table class="downloadsTable">
+        <thead>
+          <tr>
+            <th>
+              <strong>Dependency</strong>
+            </th>
+            <th>
+              <strong>Recommended version</strong>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="nobr">libtorrent-rasterbar</td>
+            <td>1.2 branch latest release</td>
+          </tr>
+          <tr>
+            <td>Qt</td>
+            <td>Latest stable release</td>
+          </tr>
+          <tr>
+            <td>Boost</td>
+            <td>Latest stable release</td>
+          </tr>
+          <tr>
+            <td>OpenSSL</td>
+            <td>1.1 branch latest release</td>
+          </tr>
+          <tr>
+            <td>zlib</td>
+            <td>Latest stable release</td>
+          </tr>
+          <tr>
+            <td>Python<br>(optional, runtime only)</td>
+            <td>Versions later than 3.5.0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
-</div>
-<br>
-
-<h3>Other Binary Packages</h3>
-<p>
-  Select operating system:
-  <select id="OSSelect" onchange="showOption(this)">
-    <option value="emptyOS" selected>Choose...</option>
-    <option value="os2">eComStation (OS/2)</option>
-    <option value="freebsd">FreeBSD</option>
-    <option value="haiku">Haiku</option>
-    <option value="linux">Linux</option>
-  </select>
-</p>
-<div id="linuxDiv" class="invisible">
+</section><section class="downloadPlatformSection" id="downloadsOtherSection">
+  <h3>Other Binary Packages</h3>
   <p>
-    Select distribution:
-    <select id="distroSelect" onchange="showOption(this)">
-      <option value="emptyDist" selected>Choose...</option>
-      <option value="altlinux">Alt Linux</option>
-      <option value="archlinux">ArchLinux</option>
-      <option value="blackpanther">blackPanther OS</option>
-      <option value="debian">Debian</option>
-      <option value="docker">Docker</option>
-      <option value="fedora">Fedora</option>
-      <option value="flatpak">Flatpak</option>
-      <option value="gentoo">Gentoo</option>
-      <option value="mageia">Mageia</option>
-      <option value="opensuse">OpenSuse</option>
-      <option value="pardus">Pardus</option>
-      <option value="slackware">Slackware</option>
-      <option value="ubuntu">Ubuntu</option>
+    Select operating system:
+    <select id="OSSelect" onchange="showOption(this)">
+      <option value="emptyOS" selected>Choose...</option>
+      <option value="os2">eComStation (OS/2)</option>
+      <option value="freebsd">FreeBSD</option>
+      <option value="haiku">Haiku</option>
+      <option value="linux">Linux</option>
     </select>
   </p>
-</div>
-
-<div id="os2Div" class="invisible">
-  <img
-    src="img/os/ecs_logo.webp"
-    alt="eComStation"
-    loading="lazy"
-    style="float: left; margin-right: 5px; width: 100px;"><br>
-  <p>qBittorrent is available on
-    <a href="http://www.ecomstation.com/">eComStation (OS/2)</a>
-    via this
-    <a href="https://svn.netlabs.org/qtapps/wiki/QT4%20Networking">download</a>
-    page.</p>
-  <p>This package is maintained by
-    <a href="mailto:silvan.scherrer@aroa.ch">Silvan Scherrer</a>.</p>
-</div>
-
-<div id="freebsdDiv" class="invisible">
-  <h4>FreeBSD packages</h4>
-  <img
-    src="img/os/freebsd.svg"
-    alt="FreeBSD"
-    loading="lazy"
-    style="float: left; margin-right: 5px; width: 6em;">
-  <p>qBittorrent is officially packaged for FreeBSD. <br>
-    More information about the port can be found on the
-    <a href="https://www.freshports.org/net-p2p/qbittorrent">FreshPorts website</a>.<br><br>
-    To install qBittorrent, you should issue the following commands:
-  </p>
-  <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
-    pkg install qbittorrent
+  <div id="linuxDiv" class="hide">
+    <p>
+      Select distribution:
+      <select id="distroSelect" onchange="showOption(this)">
+        <option value="emptyDist" selected>Choose...</option>
+        <option value="altlinux">Alt Linux</option>
+        <option value="archlinux">ArchLinux</option>
+        <option value="blackpanther">blackPanther OS</option>
+        <option value="debian">Debian</option>
+        <option value="docker">Docker</option>
+        <option value="fedora">Fedora</option>
+        <option value="flatpak">Flatpak</option>
+        <option value="gentoo">Gentoo</option>
+        <option value="mageia">Mageia</option>
+        <option value="opensuse">OpenSuse</option>
+        <option value="pardus">Pardus</option>
+        <option value="slackware">Slackware</option>
+        <option value="ubuntu">Ubuntu</option>
+      </select>
+    </p>
   </div>
-</div>
+  <section id="os2Div" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/ecs_logo.webp"
+        alt="eComStation"
+        loading="lazy">
+      <h4>eComStation (OS2)</h4>
+    </header>
+    <p>qBittorrent is available on
+      <a href="http://www.ecomstation.com/">eComStation (OS/2)</a>
+      via this
+      <a href="https://svn.netlabs.org/qtapps/wiki/QT4%20Networking">download</a>
+      page.</p>
+    <p>This package is maintained by
+      <a href="mailto:silvan.scherrer@aroa.ch">Silvan Scherrer</a>.</p>
+  </section>
 
-<div id="haikuDiv" class="invisible">
-  <h4>Haiku port</h4>
-  <p><img
-      src="img/os/haiku.webp"
-      alt="Haiku"
-      loading="lazy"
-      style="float: left; margin-right: 5px;">qBittorrent is available in HaikuDepot.</p>
-  <p>You can download it from
-    <a href="https://depot.haiku-os.org/qbittorrent_x86">here</a>.</p>
-</div>
+  <section id="freebsdDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/freebsd.svg"
+        alt="FreeBSD"
+        loading="lazy">
+      <h4>FreeBSD</h4>
+    </header>
+    <p>qBittorrent is officially packaged for FreeBSD.</p>
+    <p>
+      More information about the port can be found on the
+      <a href="https://www.freshports.org/net-p2p/qbittorrent">FreshPorts website</a>.
+    </p>
+    <p>To install qBittorrent, you should issue the following commands:</p>
+    <div class="codePart">
+      <p>pkg install qbittorrent</p>
+    </div>
+  </section>
 
-<div id="altlinuxDiv" class="invisible">
-  <h4>Alt Linux packages</h4>
-  <img
-    src="img/os/altlinux.webp"
-    alt="Alt Linux"
-    loading="lazy"
-    style="float: left; margin-right: 5px; width: 65px;">qBittorrent is officially packaged on
-  <a href="https://www.altlinux.org">Alt Linux</a>. These packages are maintained by
-  <a href="http://sisyphus.ru/en/packager/swi">Alexey Morsov</a>. Packages are available
-  <a href="http://sisyphus.ru/en/srpm/Branch5/qbittorrent/">here</a>. To install, simply type the following commands:
-  <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
-    sudo apt-get update &amp;&amp; sudo apt-get install qbittorrent
-  </div>
-</div>
+  <section id="haikuDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/haiku.webp"
+        alt="Haiku"
+        loading="lazy">
+      <h4>Haiku</h4>
+    </header>
+    <p class="importantNote">
+      <strong>Warning:</strong>
+      This is a port. It is not official.
+    </p>
+    <p>qBittorrent is available in HaikuDepot.</p>
+    <p>You can download it from
+      <a href="https://depot.haiku-os.org/qbittorrent_x86">here</a>.
+    </p>
+  </section>
 
-<div id="archlinuxDiv" class="invisible">
-  <h4>ArchLinux packages</h4>
-  <img
-    src="img/os/archlinux.svg"
-    alt="ArchLinux"
-    loading="lazy"
-    style="float: left; margin-right: 5px; width: 65px;">
-  qBittorrent is officially packaged on
-  <a href="https://www.archlinux.org/">ArchLinux</a>.
-  To install, simply type the following commands:
-  <div class="codePart" style="margin:10px 10px 10px 70px; padding:5px;">
-    sudo pacman -S qbittorrent
-  </div>
-  Package information
-  <a href="https://www.archlinux.org/packages/?q=qbittorrent">here</a>.<br><br>
-  For development, you can get PKGBUILD from Arch User Repository (AUR) and build it yourself:<br>
-  AUR (non-official) information
-  <a href="https://aur.archlinux.org/packages/qbittorrent-git/">here</a>.
-</div>
+  <section id="altlinuxDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/altlinux.webp"
+        alt="Alt Linux"
+        loading="lazy">
+      <h4>Alt Linux</h4>
+    </header>
+    <p>
+      qBittorrent is officially packaged on
+      <a href="https://www.altlinux.org">Alt Linux</a>.
+    </p>
+    <p>
+      These packages are maintained by
+      <a href="http://sisyphus.ru/en/packager/swi">Alexey Morsov</a>.
+    </p>
+    <p>Packages are available
+      <a href="http://sisyphus.ru/en/srpm/Branch5/qbittorrent/">here</a>.
+    </p>
+    <p>
+      To install, simply type the following commands:
+      <div class="codePart">
+        <p>
+          sudo apt-get update &amp;&amp; sudo apt-get install qbittorrent
+        </p>
+      </div>
+    </p>
+  </section>
 
-<div id="blackpantherDiv" class="invisible">
-  <h4>blackPanther OS packages</h4>
-  <img
-    src="img/os/blackPanther-dark.webp"
-    loading="lazy"
-    alt="blackPanther OS"
-    style="float: left; margin-right: 5px; width: 65px;">
-  <p>qBittorrent is officially shipped on
-    <a href="http://www.blackpanther.hu">blackPanther OS</a>
-    CD as the default Bittorrent client. RPM packages are available
-    <a href="ftp://ftp.blackpanther.hu/blackPanther/OS/All/Seeker/qbittorrent/">here</a>.</p>
-  <p>These packages are maintained by
-    <a href="mailto:kbarcza@blackpanther.hu">Charles Barcza</a>.</p>
-</div>
+  <section id="archlinuxDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/archlinux.svg"
+        alt="ArchLinux"
+        loading="lazy">
+      <h4>Arch Linux</h4>
+    </header>
+    <p>
+      qBittorrent is officially packaged on
+      <a href="https://www.archlinux.org/">ArchLinux</a>.
+    </p>
+    <p>
+      To install, simply type the following commands:
+    </p>
+    <div class="codePart">
+      <p>sudo pacman -S qbittorrent</p>
+    </div>
+    <p>
+      Package information
+      <a href="https://www.archlinux.org/packages/?q=qbittorrent">here</a>.
+    </p>
+    <div class="importantNoteSecondary">
+      <p>
+        For development, you can get PKGBUILD from Arch User Repository (AUR) and build it yourself:
+      </p>
+      <p>
+        AUR (non-official) information
+        <a href="https://aur.archlinux.org/packages/qbittorrent-git/">here</a>.
+      </p>
+    </div>
+  </section>
 
-<div id="debianDiv" class="invisible">
-  <h4>Debian packages</h4>
-  <img
-    src="img/os/debian.svg"
-    alt="Debian"
-    loading="lazy"
-    style="float: left; margin-right: 5px; height: 4em;">
-  <p>qBittorrent and libtorrent-rasterbar are now officially included in Debian. Packages are maintained by
-    <a href="mailto:cristian.debian@gmail.com">Cristian Greco</a>. See this
-    <a href="https://packages.debian.org/search?keywords=qbittorrent&searchon=names&suite=all&section=all">page</a>
-    for more information.</p>
-</div>
+  <section id="blackpantherDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/blackPanther-dark.webp"
+        loading="lazy"
+        alt="blackPanther OS">
+      <h4>blackPanther OS</h4>
+    </header>
+    <p>qBittorrent is officially shipped on
+      <a href="http://www.blackpanther.hu">blackPanther OS</a>
+      CD as the default Bittorrent client.
+    </p>
+    <p>
+      RPM packages are available
+      <a href="ftp://ftp.blackpanther.hu/blackPanther/OS/All/Seeker/qbittorrent/">here</a>.
+    </p>
+    <p>These packages are maintained by
+      <a href="mailto:kbarcza@blackpanther.hu">Charles Barcza</a>.
+    </p>
+  </section>
 
-<div id="dockerDiv" class="invisible">
-  <h4>Docker images</h4>
-  <img
-    src="img/os/docker.webp"
-    alt="Docker"
-    loading="lazy"
-    style="float: left; margin-right: 5px; width: 7em;">
-  <p>
-    Official docker images are provided. Please follow the instructions
-    <a href="https://github.com/qbittorrent/docker-qbittorrent-nox#usage">here</a>.<br>
-    Docker hub
-    <a href="https://hub.docker.com/r/qbittorrentofficial/qbittorrent-nox">link</a>.
-  </p>
-</div>
+  <section id="debianDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/debian.svg"
+        alt="Debian"
+        loading="lazy">
+      <h4>Debian</h4>
+    </header>
+    <p>qBittorrent and libtorrent-rasterbar are now officially included in Debian. Packages are maintained by
+      <a href="mailto:cristian.debian@gmail.com">Cristian Greco</a>.
+    </p>
+    <p>
+      See this
+      <a href="https://packages.debian.org/search?keywords=qbittorrent&searchon=names&suite=all&section=all">page</a>
+      for more information.
+    </p>
+  </section>
 
-<div id="fedoraDiv" class="invisible">
-  <h4>Fedora packages</h4>
-  <img
-    src="img/os/fedoralogo.webp"
-    alt="Fedora"
-    loading="lazy"
-    style="float: left; margin-right: 5px; width: 65px;">
-  <p>qBittorrent is officially packaged on Fedora. RPM packages are maintained by
-    <a href="mailto:leigh123linux@googlemail.com">Leigh Scott</a>.</p>
-  <p>See this
-    <a href="https://packages.fedoraproject.org/pkgs/qbittorrent/">page</a>
-    for more information.</p>
-</div>
+  <section id="dockerDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/docker.webp"
+        alt="Docker"
+        loading="lazy">
+      <h4>Docker</h4>
+    </header>
+    <p>
+      Official docker images are provided. Please follow the instructions
+      <a href="https://github.com/qbittorrent/docker-qbittorrent-nox#usage">here</a>.
+    </p>
+    <p>
+      Docker hub
+      <a href="https://hub.docker.com/r/qbittorrentofficial/qbittorrent-nox">link</a>.
+    </p>
+  </section>
 
-<div id="flatpakDiv" class="invisible">
-  <h4>Flatpak app</h4>
-  <img
-    src="img/os/flatpak.svg"
-    alt="Flatpak"
-    loading="lazy"
-    style="float: left; margin-right: 5px; width: 8em;">
-  <p>For installation, head over to FlatHub page:
-    <a href="https://flathub.org/apps/details/org.qbittorrent.qBittorrent">https://flathub.org/apps/details/org.qbittorrent.qBittorrent</a>
-  </p>
-  <p>For reporting bugs, head over to the issue tracker:
-    <a href="https://github.com/flathub/org.qbittorrent.qBittorrent/issues">https://github.com/flathub/org.qbittorrent.qBittorrent/issues</a>
-  </p>
-</div>
+  <section id="fedoraDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/fedoralogo.webp"
+        alt="Fedora"
+        loading="lazy">
+      <h4>Fedora</h4>
+    </header>
+    <p>qBittorrent is officially packaged on Fedora. RPM packages are maintained by
+      <a href="mailto:leigh123linux@googlemail.com">Leigh Scott</a>.
+    </p>
+    <p>
+      See this
+      <a href="https://packages.fedoraproject.org/pkgs/qbittorrent/">page</a>
+      for more information.
+    </p>
+  </section>
 
-<div id="gentooDiv" class="invisible">
-  <h4>Gentoo ebuilds</h4>
-  <img
-    src="img/os/gentoo.svg"
-    alt="Gentoo"
-    loading="lazy"
-    style="float: left; margin-right: 5px; height: 4em;">qBittorrent is officially available in portage. You can install it easily on your system using emerge command. These ebuilds are maintained by
-  <a href="mailto:zlogene@gentoo.org">Mikle Kolyada</a>. See
-  <a href="https://packages.gentoo.org/packages/net-p2p/qbittorrent">this page</a>
-  for more information.
-</div>
+  <section id="flatpakDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/flatpak.svg"
+        alt="Flatpak"
+        loading="lazy">
+      <h4>Flatpak</h4>
+    </header>
+    <p>
+      For installation, head over to FlatHub page:
+      <a href="https://flathub.org/apps/details/org.qbittorrent.qBittorrent">https://flathub.org/apps/details/org.qbittorrent.qBittorrent</a>
+    </p>
+    <p>
+      For reporting bugs, head over to the issue tracker:
+      <a href="https://github.com/flathub/org.qbittorrent.qBittorrent/issues">https://github.com/flathub/org.qbittorrent.qBittorrent/issues</a>
+    </p>
+  </section>
 
-<div id="mageiaDiv" class="invisible">
-  <h4>Mageia packages</h4>
-  <img
-    src="img/os/mageia.webp"
-    alt="Mageia"
-    loading="lazy"
-    style="float: left; margin-right: 5px;">
-  <p>qBittorrent is currently packaged in the Mageia official repositories.
-    It is packaged by
-    <a href="mailto:ahmad@mageia.org">Ahmad Samir</a>. To install it, make
-    sure the online repositories are configured correctly then install it
-        either:</p>
-  <ul>
-    <li>As root from terminal: 'urpmi qbittorrent' OR</li>
-    <li>Using rpmdrake (aka "Install &amp; remove software")</li>
-  </ul>
-</div>
+  <section id="gentooDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/gentoo.svg"
+        alt="Gentoo"
+        loading="lazy">
+      <h4>Gentoo</h4>
+    </header>
+    <p>
+      qBittorrent is officially available in portage. You can install it easily on your system using emerge command. These ebuilds are maintained by
+      <a href="mailto:zlogene@gentoo.org">Mikle Kolyada</a>.
+    </p>
+    <p>
+      See
+      <a href="https://packages.gentoo.org/packages/net-p2p/qbittorrent">this page</a>
+      for more information.
+    </p>
+  </section>
 
-<div id="opensuseDiv" class="invisible">
-  <h4>OpenSuse packages</h4>
-  <img
-    src="img/os/opensuse.svg"
-    alt="openSUSE"
-    loading="lazy"
-    style="float:left; margin-right:5px; height: 5em;">
-  <p>qBittorrent has been in the OpenSuse official repository since v11.3. <br>
-    <br>
-    One-click install
-    <a href="https://software.opensuse.org/package/qbittorrent">here</a>.
-  </p>
-</div>
+  <section id="mageiaDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/mageia.webp"
+        alt="Mageia"
+        loading="lazy">
+      <h4>Mageia</h4>
+    </header>
+    <p>
+      qBittorrent is currently packaged in the Mageia official repositories.
+    </p>
+    <p>
+      It is packaged by
+      <a href="mailto:ahmad@mageia.org">Ahmad Samir</a>.
+    </p>
+    <p>
+      To install it, make sure the online repositories are configured correctly then install it either:
+    </p>
+    <section>
+      <h5>As root from terminal:</h5>
+      <div class="codePart">
+        <p>urpmi qbittorrent</p>
+      </div>
+    </section>
+    <p>
+      <strong>OR</strong>
+    </p>
+    <h5>Using rpmdrake (aka "Install & remove software"):</h5>
+  </section>
 
-<div id="pardusDiv" class="invisible">
-  <h4>Pardus packages</h4>
-  <img
-    src="img/os/pardus.webp"
-    alt="Pardus"
-    loading="lazy"
-    style="float: left; margin-right: 5px; width: 100px;">qBittorrent is officially available on
-  <a href="https://www.pardus.org.tr/en/home/">Pardus</a>
-  via the contrib repository. These packages are maintained by
-  <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/packager/H.%20%C4%B0brahim%20G%C3%BCng%C3%B6r.html">H. İbrahim Güngör</a>. Packages are available
-  <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/source/qbittorrent.html">here</a>. <br>
-  <br>To install, simply type the following command:
-  <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
-    #Ensure the contrib repo is present on your system:<br>
-    sudo pisi ar contrib http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2<br>
-    <br>
-    #Enable the contrib repo if present but disabled:<br>
-    sudo pisi er contrib<br>
-    <br>
-    #Install qBittorrent:<br>
-    sudo pisi it qbittorrent<br>
-  </div>
-</div>
+  <section id="opensuseDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/opensuse.svg"
+        alt="openSUSE"
+        loading="lazy">
+      <h4>OpenSuse</h4>
+    </header>
+    <p>qBittorrent has been in the OpenSuse official repository since v11.3.</p>
+    <p>
+      One-click install
+      <a href="https://software.opensuse.org/package/qbittorrent">here</a>.
+    </p>
+  </section>
 
-<div id="slackwareDiv" class="invisible">
-  <h4>Slackware scripts</h4>
-  <img
-    src="img/os/slackware.webp"
-    alt="Slackware"
-    loading="lazy"
-    style="float: left; margin-right: 5px; width: 65px;">
-  <p>qBittorrent is available for Slackware through
-    <a href="https://slackbuilds.org/">slackbuilds.org</a>. The slackbuild script is maintained by
-    <a href="mailto:info@davidwoodfall.co.uk">David Woodfall</a>. See this
-    <a href="https://slackbuilds.org/result/?search=qBittorrent&sv=">page</a>
-    for more information.</p>
-  <p>
-    <a href="mailto:alien@slackware.com">Eric Hameleers</a>
-    is also maintaining binary packages for slackware. Those are available
-    <a href="http://slackware.com/~alien/slackbuilds/qbittorrent/">there</a>.</p>
-</div>
+  <section id="pardusDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/pardus.webp"
+        alt="Pardus"
+        loading="lazy">
+      <h4>Pardus</h4>
+    </header>
+    <p>
+      qBittorrent is officially available on
+      <a href="https://www.pardus.org.tr/en/home/">Pardus</a>
+      via the contrib repository.
+    </p>
+    <p>
+      These packages are maintained by
+      <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/packager/H.%20%C4%B0brahim%20G%C3%BCng%C3%B6r.html">H. İbrahim Güngör</a>.
+    </p>
+    <p>
+      Packages are available
+      <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/source/qbittorrent.html">here</a>.
+    </p>
+    <p>To install, simply type the following command:</p>
+    <div class="codePart">
+      <p>#Ensure the contrib repo is present on your system:</p>
+      <p>sudo pisi ar contrib http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2</p>
+      <br>
+      <p>#Enable the contrib repo if present but disabled:</p>
+      <p>sudo pisi er contrib</p>
+      <br>
+      <p>#Install qBittorrent:</p>
+      <p>sudo pisi it qbittorrent</p>
+    </div>
+  </section>
 
-<div id="ubuntuDiv" class="invisible">
-  <h4>Ubuntu packages</h4>
-  <img
-    src="img/os/ubuntu.svg"
-    alt="Ubuntu"
-    loading="lazy"
-    style="float: left; margin-right: 5px; height: 4em;">
-  <p>
-    qBittorrent is now available in official Ubuntu repositories since v9.04 "Jaunty".<br>
-    More up-to-date packages are published on our
-    <a href="https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable">stable</a>
-    and
-    <a href="https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-unstable">unstable</a>
-    PPAs.
-    <br>The PPAs support the latest Ubuntu version and some of the previous ones.
-  </p>
-  <h5>Quick instructions</h5>
-  <p>To use these PPAs please use the following command and make sure your version is supported:</p>
-  <div class="codePart" style="width: 500px;">
-    <b># qBittorrent Stable</b><br>
-    sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable<br><br>
-    <b># or qBittorrent Unstable</b><br>
-    sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-unstable
-  </div>
-  <p>Then install qBittorrent by doing this:</p>
-  <div class="codePart" style="width: 500px;">
-    sudo apt-get update &amp;&amp; sudo apt-get install qbittorrent
-  </div>
-</div>
+  <section id="slackwareDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/slackware.webp"
+        alt="Slackware"
+        loading="lazy">
+      <h4>Slackware</h4>
+    </header>
+    <p>
+      qBittorrent is available for Slackware through
+      <a href="https://slackbuilds.org/">slackbuilds.org</a>.
+    </p>
+    <p>
+      The slackbuild script is maintained by
+      <a href="mailto:info@davidwoodfall.co.uk">David Woodfall</a>.
+    </p>
+    <p>
+      See this
+      <a href="https://slackbuilds.org/result/?search=qBittorrent&sv=">page</a>
+      for more information.
+    </p>
+    <p>
+      <a href="mailto:alien@slackware.com">Eric Hameleers</a>
+      is also maintaining binary packages for slackware. Those are available
+      <a href="http://slackware.com/~alien/slackbuilds/qbittorrent/">there</a>.</p>
+  </section>
 
-<hr class="invisible clear">
-<br>
-
-<h3>Old Release Archive</h3>
-<ul>
-  <li>
-    <a href="https://www.fosshub.com/qBittorrent-old.html">FossHub</a>
-  </li>
-  <li>
-    <a href="https://sourceforge.net/projects/qbittorrent/files/">SourceForge</a>
-  </li>
-</ul>
-<br>
+  <section id="ubuntuDiv" class="hide">
+    <header>
+      <img
+        height="32"
+        src="/img/os/ubuntu.svg"
+        alt="Ubuntu"
+        loading="lazy">
+      <h4>Ubuntu</h4>
+    </header>
+    <p>
+      qBittorrent is now available in official Ubuntu repositories since v9.04 "Jaunty".
+    </p>
+    <p>
+      More up-to-date packages are published on our
+      <a href="https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable">stable</a>
+      and
+      <a href="https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-unstable">unstable</a>
+      PPAs.
+      <br>
+    </p>
+    <p>
+      The PPAs support the latest Ubuntu version and some of the previous ones.
+    </p>
+    <h5>Quick instructions</h5>
+    <p>To use these PPAs please use the following command and make sure your version is supported:</p>
+    <div class="codePart">
+      <p># qBittorrent Stable</p>
+      <p>sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable</p>
+      <br>
+      <p># or qBittorrent Unstable</p>
+      <p>sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-unstable</p>
+    </div>
+    <p>Then install qBittorrent by doing this:</p>
+    <div class="codePart">
+      sudo apt-get update &amp;&amp; sudo apt-get install qbittorrent
+    </div>
+  </section>
+</section>
 
 <script>
   'use strict';
@@ -1043,26 +1290,36 @@
 
   function setIdClassAttr(id, v) {
     var docElem = document.getElementById(id);
-    if (docElem) 
+    if (docElem) {
       docElem.className = v;
-    
+    }
   }
 
   function showOption(elem) {
     var resetClassAttr = function(id, v) {
       var opts = document.getElementById(id).options;
-      for (var i = 0; i < opts.length; ++ i) 
+      for (var i = 0; i < opts.length; ++ i) {
         setIdClassAttr(opts[i].value + "Div", v);
-      
+      }
     };
 
 // reset all
     if (elem.id == "OSSelect") {
-      resetClassAttr("OSSelect", "invisible");
+      resetClassAttr("OSSelect", "hide");
       distroSelect.value = "emptyDist"
     }
-    resetClassAttr("distroSelect", "invisible");
+    resetClassAttr("distroSelect", "hide");
 
     setIdClassAttr(elem.value + "Div", ""); // display selected element
   }
-</script>
+</script><section class="downloadPlatformSection">
+  <h3>Old Release Archive</h3>
+  <ul>
+    <li><a href="https://www.fosshub.com/qBittorrent-old.html"><p>FossHub</p></a></li>
+    <li><a href="https://sourceforge.net/projects/qbittorrent/files/"><p>SourceForge</p></a></li>
+  </ul>
+</section>
+    </main><footer>
+  <p>Copyright &copy; 2006-2023 The qBittorrent Project. All Rights Reserved.</p>
+</footer></body>
+</html>
