@@ -1,6 +1,7 @@
 # The Modern qBittorrent Website (Un-Official)
 
 [![GitHub Actions CI Status](https://github.com/eraychumak/qBittorrent-website/workflows/CI/badge.svg)](https://github.com/eraychumak/qBittorrent-website/actions)
+[![Deploy to GitHub Pages](https://github.com/eraychumak/qBittorrent-website/actions/workflows/deploy.yaml/badge.svg)](https://github.com/eraychumak/qBittorrent-website/actions/workflows/deploy.yaml)
 
 ![Preview of the new redesigned website, desktop + mobile](./preview.png)
 
